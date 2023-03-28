@@ -73,11 +73,11 @@ public class Pessoa {
     }
 
     public String getCargo() {
-        if (getSexo().equals("F")&&getIdade()<25&&getEscolaridade().equals("médio"))
+        if (getSexo().equals('F')&&getIdade()<25&&getEscolaridade().equals("médio"))
             return cargo = "Recepcionista";
-        if (getSexo().equals("M")&&getIdade()>40&&getEscolaridade().equals("fundamental"))
+        if (getSexo().equals('M')&&getIdade()>40&&getEscolaridade().equals("fundamental"))
             return cargo = "Servente";
-        if (getSexo().equals("M")||getSexo().equals("F")&&getIdade()<30&&getEscolaridade().equals("superior"))
+        if (getSexo().equals('M')||getSexo().equals('F')&&getIdade()<30&&getEscolaridade().equals("superior"))
             return cargo = "Auxiliar de RH";
         return cargo = "sem cargo";
     }
@@ -88,7 +88,7 @@ public class Pessoa {
         if (getIdade()>=18&&getIdade()<=65)
             return eleitor = "Eleitor Obrigatório";
         if(getIdade()>=16&&getIdade()<=17||getIdade()>65);
-        return eleitor = "Eleitor Facultativo";
+            return eleitor = "Eleitor Facultativo";
     }
 
     public String getIMC() {
