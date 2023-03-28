@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nome"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/nome" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="idade"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/idade" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sexo"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/sexo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="escolaridade"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/escolaridade" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="peso"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/peso" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="altura"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/altura" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pessoa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:layout_margin="10dp"
+        android:id="@+id/pessoa"/>
+
+
+
+</LinearLayout>
